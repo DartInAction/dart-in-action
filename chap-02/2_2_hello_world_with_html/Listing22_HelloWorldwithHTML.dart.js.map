@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": ["file:///C:/work/book/dart-in-action/chap-02/2_2_hello_world_with_html/Listing22_HelloWorldwithHTML.dart","file:///C:/work/dart/editor/m3_be/dart/dart-sdk/lib/_internal/compiler/implementation/lib/core_patch.dart","file:///C:/work/dart/editor/m3_be/dart/dart-sdk/lib/_internal/compiler/implementation/lib/js_helper.dart"],
+  "names": ["main","Primitives","static"],
+  "mappings": "A;A,yC;A,kE;A,6D;A,sE;A,8D;A,uE;A,qD;A;A;;A;A,iB;A,C,C,I,C,C,CAAAA;ECgBEC;ADhBK;CAAuB,A;;A,C,C,sB,C,C,CE2I5BC;;;AAII;;;;;AASA;;;;AAMA;;;CAOJ,A;;A,iC;A;A;A;A;A,uB;A;;;;;;;;;;;;;;;;;A,qB;A"
+}
