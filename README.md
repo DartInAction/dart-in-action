@@ -10,7 +10,7 @@ This code in the master branch is being migrated as Dart heads towards version 1
 ## Current status:
 
 - Chapter 01: Last tested with r20263 (M3+)
-- Chapter 02: Last tested with r16323 (M2)
+- Chapter 02: Last tested with r20263 (M3+)
 - Chapter 03: Last tested with r16323 (M2)
 - Chapter 04: Last tested with r16323 (M2)
 - Chapter 05: Last tested with r16323 (M2)
