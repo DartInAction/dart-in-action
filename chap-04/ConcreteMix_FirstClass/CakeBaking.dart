@@ -30,7 +30,7 @@ Ingredient combineIngredients(MixFunction mixFunc, Ingredient item1, Ingredient 
     return mixFunc(item1, item2);
 }
 
-Ingredient otherCombineIngredients(Ingredient mixFunction(Ingredient, Ingredient), item1, item2) {
+Ingredient otherCombineIngredients(Ingredient mixFunction(Ingredient item1, Ingredient item2), item1, item2) {
   return mixFunction(item1, item2);
 }
 
