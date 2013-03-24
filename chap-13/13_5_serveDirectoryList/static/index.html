@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Static</title>
+    <link rel="stylesheet" href="directoryList.css">
+  </head>
+  <body>
+    <h2>Dart File Browser</h2>
+    <div id="app">
+        <div class="content">Folders: <br/>
+          <span id="currentFolder">Current Folder:</span> 
+    	  <div id="folderList" ></div>
+    	</div>
+    	<div class="content">
+    	  Files: <br/>
+    	  
+    	  <div id="fileList"></div>
+    	</div>
+    	<div class="content">File Content: <br/>
+    	  <span id="filename"></span><br/> 
+    	  <textarea id="fileContent" rows="20"></textarea>
+    	  <button id="saveButton">Save</button>
+    	</div>
+	</div>
+    <script type="application/dart" src="directoryListerClient.dart"></script>
+    <script src="dart.js"></script>
+  </body>
+</html>
