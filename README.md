@@ -1,7 +1,7 @@
 dart-in-action
 ==============
 
-Accompanying source for the Dart In Action book from Manning.  
+Accompanying source for the [Dart In Action book from Manning](http://goo.gl/XhCW7).  
 Although the source code has changed due to breaking changes in the APIs, the underlying concepts (classes, interfaces,
 isolates, functional programming and so-on, remain the same).
 
