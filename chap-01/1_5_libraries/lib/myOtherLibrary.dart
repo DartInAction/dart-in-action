@@ -1,0 +1,6 @@
+library MyOtherLibrary;
+
+
+sayHello(g) {
+
+}
