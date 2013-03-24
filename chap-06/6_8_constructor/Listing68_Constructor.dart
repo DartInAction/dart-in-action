@@ -9,11 +9,15 @@ abstract class AuthService {
 }
 
 
-class EnterpriseAuthService {
+class EnterpriseAuthService implements AuthService {
   String connection;
 
   EnterpriseAuthService() {
     print("in the constructor");
+  }
+  
+  User auth(String username, String password) {
+    // snip implementation
   }
 }
 
