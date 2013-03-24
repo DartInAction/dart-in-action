@@ -22,4 +22,10 @@ void main() {
   print(o.toString());
   print("$o");
 
+  // new for M4:
+  // + operator can now concatenate two strings
+  var s = h + w;
+  print(s);
+  // but + operator cannot concatente anything else
+  // s = h + 1; - won't work.
 }
