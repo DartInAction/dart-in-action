@@ -17,4 +17,11 @@ class EnterpriseAuthService implements AuthService, RoleService {
   set isConnected(bool value) => _isConnected = value;
 
   //snip auth() and getRoles()
+  User auth(String username, String password) {
+    // snip implementation
+  }
+  
+  List getRoles(User user) {
+    // snip implementation
+  }
 }
