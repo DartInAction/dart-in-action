@@ -7,7 +7,7 @@ main() {
   InputElement itemInput = new Element.tag("input");
   itemInput.id = "txt-item";
   itemInput.placeholder = "Enter an item";
-  itemInput.on.keyPress.add( (UIEvent event) {
+  itemInput.onKeyPress.listen( (KeyboardEvent event) {
     if (event.keyCode == 13) {
       addItem();
     }
@@ -17,14 +17,14 @@ main() {
   ButtonElement addButton = new Element.tag("button");
   addButton.id = "btn-add";
   addButton.text = "Add";
-  addButton.on.click.add((event) => addItem());
+  addButton.onClick.listen((event) => addItem());
   document.body.children.add(addButton);
 
   DivElement itemContainer = new Element.tag("div");
   itemContainer.id = "items";
   itemContainer.style.width = "300px";
   itemContainer.style.border = "1px solid black";
-  itemContainer.innerHTML = "&nbsp;";
+  itemContainer.innerHtml = "&nbsp;";
   document.body.children.add(itemContainer);
 
 }
