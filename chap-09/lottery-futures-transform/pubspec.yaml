@@ -1,0 +1,5 @@
+name:  lottery_futures_transform
+description:  Example
+
+dependencies:
+  unittest: any
