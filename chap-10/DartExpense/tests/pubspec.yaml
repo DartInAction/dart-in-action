@@ -1,0 +1,5 @@
+name:  Unit tests
+description:  unit tests
+
+dependencies:
+  unittest: any

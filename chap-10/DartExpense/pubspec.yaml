@@ -1,0 +1,5 @@
+name:  dartexpense
+description:  Example 
+
+dependencies:
+  unittest: any
