@@ -16,3 +16,9 @@ echo "Testing Chapter 1"
 %ANA% chap-01/1_8_dart_canvas/Listing18_DartCanvas.dart
 
 echo "Testing Chapter 2"
+
+%ANA% chap-02/2_1_hello_world/Listing21_HelloWorld.dart
+%ANA% chap-02/2_2_hello_world_with_html/Listing22_HelloWorldwithHTML.dart
+%ANA% chap-02/2_4_hello_world_in_the_browser/Listing24_HelloWorldintheBrowser.dart
+%ANA% chap-02/2_5_creating_elements/Listing25_CreatingElements.dart
+%ANA% chap-02/hello_world_app/HelloWorld.dart
