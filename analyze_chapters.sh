@@ -32,3 +32,9 @@ echo "- Analyzing Chapter 3"
 %ANA% chap-03/3_5_using_packItem_class/Listing35_UsingPackItemclass.dart
 %ANA% chap-03/3_6_using_a_getter/Listing36_Usingagetter.dart
 %ANA% chap-03/3_7_using_a_setter/Listing37_Usingasetter.dart
+
+echo "- Analyzing Chapter 3"
+
+%ANA% chap-04/ConcreteMix/ConcreteMix.dart
+%ANA% chap-04/ConcreteMix_Closures/CakeBaking.dart
+%ANA% chap-04/ConcreteMix_FirstClass/CakeBaking.dart

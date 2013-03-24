@@ -32,3 +32,9 @@ call %ANA% chap-03/3_4_packItem_class/Listing34_PackItemclass.dart
 call %ANA% chap-03/3_5_using_packItem_class/Listing35_UsingPackItemclass.dart
 call %ANA% chap-03/3_6_using_a_getter/Listing36_Usingagetter.dart
 call %ANA% chap-03/3_7_using_a_setter/Listing37_Usingasetter.dart
+
+echo - Analyzing Chapter 4
+
+call %ANA% chap-04/ConcreteMix/ConcreteMix.dart
+call %ANA% chap-04/ConcreteMix_Closures/CakeBaking.dart
+call %ANA% chap-04/ConcreteMix_FirstClass/CakeBaking.dart
