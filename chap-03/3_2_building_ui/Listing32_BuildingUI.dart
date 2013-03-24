@@ -18,6 +18,6 @@ main() {
   itemContainer.id = "items";
   itemContainer.style.width = "300px";
   itemContainer.style.border = "1px solid black";
-  itemContainer.innerHTML = "&nbsp;";
+  itemContainer.innerHtml = "&nbsp;";
   document.body.children.add(itemContainer);
 }
