@@ -33,8 +33,30 @@ echo "- Analyzing Chapter 3"
 %ANA% chap-03/3_6_using_a_getter/Listing36_Usingagetter.dart
 %ANA% chap-03/3_7_using_a_setter/Listing37_Usingasetter.dart
 
-echo "- Analyzing Chapter 3"
+echo "- Analyzing Chapter 4"
 
 %ANA% chap-04/ConcreteMix/ConcreteMix.dart
 %ANA% chap-04/ConcreteMix_Closures/CakeBaking.dart
 %ANA% chap-04/ConcreteMix_FirstClass/CakeBaking.dart
+
+echo "- Analyzing Chapter 5"
+
+# (There is no code for chapter 5 :)
+
+echo "- Analyzing Chapter 6"
+
+%ANA% chap-06/6_1_user/Listing61_User.dart
+%ANA% chap-06/6_2_using_logonLibrary/Listing62UsingLogonLibrary.dart
+%ANA% chap-06/6_2_using_logonLibrary/logon_library.dart
+%ANA% chap-06/6_3_mock_auth/Listing63_MockAuth.dart
+%ANA% chap-06/6_3_mock_auth/logon_library.dart
+%ANA% chap-06/6_4_abstract/Listing64_Abstract.dart
+%ANA% chap-06/6_4_abstract/logon_library.dart
+%ANA% chap-06/6_5_implementing/Listing65_Implementing.dart
+%ANA% chap-06/6_5_implementing/logon_library.dart
+%ANA% chap-06/6_6_multiple_interfaces/Listing66_MultipleInterfaces.dart
+%ANA% chap-06/6_6_multiple_interfaces/logon_library.dart
+%ANA% chap-06/6_7_getters_setters/Listing67_GettersSetters.dart
+%ANA% chap-06/6_7_getters_setters/logon_library.dart
+%ANA% chap-06/6_8_constructor/Listing68_Constructor.dart
+%ANA% chap-06/6_8_constructor/logon_library.dart

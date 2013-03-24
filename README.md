@@ -27,8 +27,8 @@ and load the relevant HTML files in any modern browser, even if you don't have D
 - Chapter 02: Last tested with r20263 (M3+)
 - Chapter 03: Last tested with r20263 (M3+)
 - Chapter 04: Last tested with r20263 (M3+)
-- Chapter 05: Last tested with r16323 (M2)
-- Chapter 06: Last tested with r16323 (M2)
+- Chapter 05: no code for this chapter
+- Chapter 06: Last tested with r20263 (M3+)
 - Chapter 07: Last tested with r16323 (M2)
 - Chapter 08: Last tested with r16323 (M2)
 - Chapter 09: Last tested with r16323 (M2)

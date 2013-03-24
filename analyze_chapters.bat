@@ -38,3 +38,25 @@ echo - Analyzing Chapter 4
 call %ANA% chap-04/ConcreteMix/ConcreteMix.dart
 call %ANA% chap-04/ConcreteMix_Closures/CakeBaking.dart
 call %ANA% chap-04/ConcreteMix_FirstClass/CakeBaking.dart
+
+echo - Analyzing Chapter 5
+
+rem (There is no code for chapter 5 :)
+
+echo - Analyzing Chapter 6
+
+call %ANA% chap-06/6_1_user/Listing61_User.dart
+call %ANA% chap-06/6_2_using_logonLibrary/Listing62UsingLogonLibrary.dart
+call %ANA% chap-06/6_2_using_logonLibrary/logon_library.dart
+call %ANA% chap-06/6_3_mock_auth/Listing63_MockAuth.dart
+call %ANA% chap-06/6_3_mock_auth/logon_library.dart
+call %ANA% chap-06/6_4_abstract/Listing64_Abstract.dart
+call %ANA% chap-06/6_4_abstract/logon_library.dart
+call %ANA% chap-06/6_5_implementing/Listing65_Implementing.dart
+call %ANA% chap-06/6_5_implementing/logon_library.dart
+call %ANA% chap-06/6_6_multiple_interfaces/Listing66_MultipleInterfaces.dart
+call %ANA% chap-06/6_6_multiple_interfaces/logon_library.dart
+call %ANA% chap-06/6_7_getters_setters/Listing67_GettersSetters.dart
+call %ANA% chap-06/6_7_getters_setters/logon_library.dart
+call %ANA% chap-06/6_8_constructor/Listing68_Constructor.dart
+call %ANA% chap-06/6_8_constructor/logon_library.dart
