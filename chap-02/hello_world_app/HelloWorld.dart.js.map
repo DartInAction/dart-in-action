@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "mappings": "A;;;;;;;;A;A;;A;A;A,2BAwWEA;;;AAII;;;;AAMA;;;;;;CAQJ,A;;A,UCnXI;EAEFC;CAIJ,A;;A,SCbAC;AAAO,SAAGC;CAAoB,A;;A;A;A;A;;;;;;;;;;;;;;;;;;;;;;;;;A;A;A;;;;;;;;;;;;;;;;;A",
+  "sources": ["file:///C:/work/dart/dart-stable-12440/dart/dart-sdk/pkg/compiler/implementation/lib/js_helper.dart","file:///C:/work/dart/dart-stable-12440/dart/dart-sdk/pkg/compiler/implementation/lib/core_patch.dart","file:///C:/Users/chrisbu/Google Drive/DartInAction/checked out - tp review/02-src/Hello World/HelloWorld.dart"],
+  "names": ["static","Primitives","main","print"]
+}
