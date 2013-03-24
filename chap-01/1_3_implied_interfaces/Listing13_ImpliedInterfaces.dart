@@ -1,5 +1,5 @@
-class WelcomerInterface {
-  abstract printGreeting();
+abstract class WelcomerInterface { // make the class abstract. 
+  printGreeting(); // abstract methods are implied by not having bodies
 }
 
 class Welcomer implements WelcomerInterface {
