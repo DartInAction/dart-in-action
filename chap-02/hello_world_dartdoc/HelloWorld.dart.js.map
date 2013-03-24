@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": ["file:///C:/work/book/dart-in-action/chap-02/hello_world_dartdoc/HelloWorld.dart","file:///C:/work/dart/editor/m3_be/dart/dart-sdk/lib/_internal/compiler/implementation/lib/core_patch.dart","file:///C:/work/dart/editor/m3_be/dart/dart-sdk/lib/_internal/compiler/implementation/lib/js_helper.dart"],
+  "names": ["main","Primitives","static"],
+  "mappings": "A;A,yC;A,kE;A,6D;A,sE;A,8D;A,uE;A,qD;A;A;;A;A,iB;A,C,C,I,C,C,CAKAA;ECWEC;CDTF,A;;A,C,C,sB,C,C,CEoIEC;;;AAII;;;;;AASA;;;;AAMA;;;CAOJ,A;;A,iC;A;A;A;A;A,uB;A;;;;;;;;;;;;;;;;;A,qB;A"
+}
