@@ -1,0 +1,21 @@
+{
+  "name": "Dart Expense",
+  "description": "Track Expenses",
+  "version": "1",
+  "app": {
+    "urls": [
+      "*://127.0.0.1/",
+      "*://www.google.com",
+      "*://openexchangerates.org"
+    ],
+    "launch": {
+      "web_url": "http://127.0.0.1:3030/C:/Users/chrisbu/Dropbox/DartInAction/dart-in-action/12/src/DartExpense/DartExpense.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}

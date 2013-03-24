@@ -1,0 +1,14 @@
+CACHE MANIFEST
+#V2
+
+CACHE:
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/DartExpense.html
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/DartExpense.dart.js
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/DartExpense.dart
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/dartexpense.css
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/icon_128.png
+http://127.0.0.1:3030/C:/work/dart/projects/3FinalSourceCode/12-src/DartExpense/dart.js
+
+NETWORK:
+http://openexchangerates.org/api/
+http://www.google.com/jsapi

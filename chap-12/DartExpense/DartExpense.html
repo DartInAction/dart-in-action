@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Uncomment the following line to enable appcache -->
+<!-- <html manifest="dartexpense.appcache"> -->
+  <html>
+
+  <head>
+    <title>DartExpense</title>
+    <link rel="stylesheet" type="text/css" href="dartexpense.css" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      
+      
+  </script>
+
+  <script>
+  	window.addEventListener("message", receiveMessage);
+  	function receiveMessage(event) {
+  	  
+  	  var data = JSON.parse(event.data);
+  	  if (data["type"] == "dart2js") {
+  	    if (data["action"] == "chart") {
+    	    var chartData =data["payload"];
+    	    console.log("JS1: " + chartData); 
+    	    loadPieChart(chartData);
+  	    }
+  	    else {
+  	      console.log("wrong type");
+  	    }
+  	  }
+  	}
+  	
+  	function loadPieChart(chartData) {
+        console.log("loadCharts");
+        google.load("visualization", "1", {packages:["corechart"], callback:drawChart});
+        
+        function drawChart() {
+          console.log(chartData);
+          var data = google.visualization.arrayToDataTable(chartData);
+
+          var options = {
+            title: 'Expense Types'
+          };
+
+          var divElement = document.getElementById("chartView");
+          var chart = new google.visualization.PieChart(divElement);
+          chart.draw(data, options);
+          sendToDart("chartComplete","finished");
+        }
+     }
+     
+    function sendToDart(action, payload) {
+      var data = {};                                                       
+      data["type"] = "js2dart";                                            
+      data["action"] = action;                                             
+      data["payload"] = payload;                                           
+      var jsonData = JSON.stringify(data);                                 
+      window.postMessage(jsonData,window.location.href);                   
+    }
+    
+    function onExchangeRateData(data) {
+      sendToDart("exchangeRates", data);
+    }
+     
+  </script>
+  </head>
+  <body>
+    <div id="dartexpense"></div>
+    <script type="application/dart" src="DartExpense.dart"></script>
+    <script src="dart.js"></script>       
+  </body>
+</html>
