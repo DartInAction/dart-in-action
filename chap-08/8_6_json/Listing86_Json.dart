@@ -1,8 +1,8 @@
-import "dart:json";
+import "dart:json" as JSON;
 
 
 main() {
-  var jsonString ="{'charlieKey':'2012-07-23','aliceKey':'2012-08-16'}";
+  var jsonString ='{"charlieKey":"2012-07-23","aliceKey":"2012-08-16"}';
   Map lastLogonMap = JSON.parse(jsonString);
   print(lastLogonMap["charlieKey"]);
   jsonString = JSON.stringify(lastLogonMap);
@@ -47,17 +47,17 @@ creatingAList() {
 
 
 usingIterator(User user) {
-  Iterator iterator = user.permissions.iterator();
+  Iterator iterator = user.permissions.iterator;
 
   var perm1 = null;
   var perm2 = null;
 
-  if (iterator.hasNext) {
-    perm1 = iterator.next();
+  if (iterator.moveNext()) {
+    perm1 = iterator.current;
   }
 
-  if (iterator.hasNext) {
-    perm2 = iterator.next();
+  if (iterator.moveNext()) {
+    perm2 = iterator.current;
   }
 
 }
@@ -68,8 +68,8 @@ usingIterator(User user) {
 
 // From earilier...
 
-Collection extractAdminPermissions(User user) {
-  return user.permissions.filter( (currentPermission) {
+Iterable extractAdminPermissions(User user) {
+  return user.permissions.where( (currentPermission) {
     return currentPermission is AdminPermission;
   });
 }
@@ -111,7 +111,7 @@ class AdminPermission extends Permission {
 class User {
   //snip… other properties
 
-  Collection permissions;
+  Iterable permissions;
   var name;
 
   User(this.name) {

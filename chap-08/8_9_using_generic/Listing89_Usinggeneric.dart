@@ -14,6 +14,9 @@ usingGeneric() {
 
 }
 
+main() {
+  usingGeneric();
+}
 
 // From earlier...
 
@@ -30,7 +33,7 @@ class User<C> {
   }
 
   bool containsCredential(C credential) {
-    return this.credentials.some((item) => item == credential);
+    return this.credentials.any((item) => item == credential);
   }
 
   List<C> getCredentialsList() {

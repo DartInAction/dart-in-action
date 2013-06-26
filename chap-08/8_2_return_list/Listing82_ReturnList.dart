@@ -1,5 +1,5 @@
-Collection extractAdminPermissions(User user) {
-  return user.permissions.filter( (currentPermission) {
+Iterable extractAdminPermissions(User user) {
+  return (user.permissions as List).where( (currentPermission) {
     return currentPermission is AdminPermission;
   });
 }
@@ -47,7 +47,7 @@ class AdminPermission extends Permission {
 class User {
   //snip… other properties
 
-  Collection permissions;
+  Iterable permissions;
 
   User() {
     permissions = new List();
@@ -67,4 +67,14 @@ class AuthService {
     (user.permissions as List).add(AdminPermission.ALLOW_EDIT);
     return user;
   }
+}
+
+main() {
+  var authService = new AuthService();
+  var user = authService.login("Alice","pw");
+  var permissions = extractAdminPermissions(user);
+  for (Permission perm in permissions) {
+    print(perm.name);  
+  }
+  
 }

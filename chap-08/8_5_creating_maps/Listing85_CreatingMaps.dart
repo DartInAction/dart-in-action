@@ -8,6 +8,8 @@ creatingMaps() {
   User bobUser = userMap["bobKey"];
 
   User charlieUser = userMap["charlieKey"];
+  
+  print(userMap);
 }
 
 
@@ -36,17 +38,17 @@ creatingAList() {
 
 
 usingIterator(User user) {
-  Iterator iterator = user.permissions.iterator();
+  Iterator iterator = user.permissions.iterator;
 
   var perm1 = null;
   var perm2 = null;
 
-  if (iterator.hasNext) {
-    perm1 = iterator.next();
+  if (iterator.moveNext()) {
+    perm1 = iterator.current;
   }
 
-  if (iterator.hasNext) {
-    perm2 = iterator.next();
+  if (iterator.moveNext()) {
+    perm2 = iterator.current;
   }
 
 }
@@ -57,8 +59,8 @@ usingIterator(User user) {
 
 // From earilier...
 
-Collection extractAdminPermissions(User user) {
-  return user.permissions.filter( (currentPermission) {
+Iterable extractAdminPermissions(User user) {
+  return user.permissions.where( (currentPermission) {
     return currentPermission is AdminPermission;
   });
 }
@@ -100,7 +102,7 @@ class AdminPermission extends Permission {
 class User {
   //snip… other properties
 
-  Collection permissions;
+  Iterable permissions;
   var name;
 
   User(this.name) {
@@ -121,4 +123,8 @@ class AuthService {
     (user.permissions as List).add(AdminPermission.ALLOW_EDIT);
     return user;
   }
+}
+
+main() {
+  creatingMaps();
 }

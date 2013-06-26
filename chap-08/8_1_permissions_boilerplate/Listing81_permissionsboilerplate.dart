@@ -33,7 +33,7 @@ class AdminPermission extends Permission {
 class User {
   //snip… other properties
 
-  Collection permissions;
+  Iterable permissions;
 
   User() {
     permissions = new List();
@@ -53,4 +53,8 @@ class AuthService {
     (user.permissions as List).add(AdminPermission.ALLOW_EDIT);
     return user;
   }
+}
+
+main() {
+  var authService = new AuthService().login("Alice","pw");
 }

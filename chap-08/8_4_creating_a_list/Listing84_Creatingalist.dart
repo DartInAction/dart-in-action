@@ -21,17 +21,17 @@ creatingAList() {
 // From earlier
 
 usingIterator(User user) {
-  Iterator iterator = user.permissions.iterator();
+  Iterator iterator = user.permissions.iterator;
 
   var perm1 = null;
   var perm2 = null;
 
-  if (iterator.hasNext) {
-    perm1 = iterator.next();
+  if (iterator.moveNext()) {
+    perm1 = iterator.current;
   }
 
-  if (iterator.hasNext) {
-    perm2 = iterator.next();
+  if (iterator.moveNext()) {
+    perm2 = iterator.current;
   }
 
 }
@@ -42,8 +42,8 @@ usingIterator(User user) {
 
 // From earilier...
 
-Collection extractAdminPermissions(User user) {
-  return user.permissions.filter( (currentPermission) {
+Iterable extractAdminPermissions(User user) {
+  return user.permissions.where( (currentPermission) {
     return currentPermission is AdminPermission;
   });
 }
@@ -85,7 +85,7 @@ class AdminPermission extends Permission {
 class User {
   //snip… other properties
 
-  Collection permissions;
+  Iterable permissions;
 
   User() {
     permissions = new List();
@@ -105,4 +105,8 @@ class AuthService {
     (user.permissions as List).add(AdminPermission.ALLOW_EDIT);
     return user;
   }
+}
+
+main() {
+  creatingAList();
 }
