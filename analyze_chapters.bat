@@ -3,7 +3,7 @@
 rem Dart Analyzer tests for Dart in Action code
 
 setlocal
-set ANA=dart_analyzer --enable_type_checks --fatal-type-errors --extended-exit-code --type-checks-for-inferred-types 
+set ANA=dartanalyzer
 
 echo - Analyzing Chapter 1
 call %ANA% chap-01/1_1_strings/Listing11Strings.dart
