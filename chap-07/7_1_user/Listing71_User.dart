@@ -12,3 +12,8 @@ class User {
     //… some validation code …
   }
 }
+
+
+main() {
+  new User("Alice");
+}

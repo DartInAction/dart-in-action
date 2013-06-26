@@ -20,3 +20,12 @@ class User {
     //… some validation code …
   }
 }
+
+main() {
+  var alice = new User("Alice");
+  
+  var bob = new EnterpriseUser("Bob");
+  print(bob.username);
+  bob.markExpired();
+  
+}
