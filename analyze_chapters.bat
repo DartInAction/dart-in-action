@@ -60,3 +60,20 @@ call %ANA% chap-06/6_7_getters_setters/Listing67_GettersSetters.dart
 call %ANA% chap-06/6_7_getters_setters/logon_library.dart
 call %ANA% chap-06/6_8_constructor/Listing68_Constructor.dart
 call %ANA% chap-06/6_8_constructor/logon_library.dart
+
+echo - Analyzing Chapter 7
+
+call %ANA% chap-07/7_1_user/Listing71_User.dart
+call %ANA% chap-07/7_2_extending_user/Listing72_ExtendingUser.dart
+
+echo - Analyzing Chapter 8
+
+call %ANA% chap-08/8_1_permissions_boilerplate/Listing81_permissionsboilerplate.dart
+call %ANA% chap-08/8_2_return_list/Listing82_ReturnList.dart
+call %ANA% chap-08/8_3_using_iterator/Listing83_UsingIterator.dart
+call %ANA% chap-08/8_4_creating_a_list/Listing84_Creatingalist.dart
+call %ANA% chap-08/8_5_creating_maps/Listing85_CreatingMaps.dart
+call %ANA% chap-08/8_6_json/Listing86_Json.dart
+call %ANA% chap-08/8_7_putIfAbsent/Listing87_putIfAbsent.dart
+call %ANA% chap-08/8_8_generic_user/Listing88_GenericUser.dart
+call %ANA% chap-08/8_9_using_generic/Listing89_Usinggeneric.dart

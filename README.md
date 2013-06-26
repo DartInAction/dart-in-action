@@ -23,14 +23,14 @@ and load the relevant HTML files in any modern browser, even if you don't have D
 
 ## Current status:
 
-- Chapter 01: Last tested with r20263 (M3+)
-- Chapter 02: Last tested with r20263 (M3+)
-- Chapter 03: Last tested with r20263 (M3+)
-- Chapter 04: Last tested with r20263 (M3+)
+- Chapter 01: Last tested with 0.5.20_r24275 (Dart Beta)
+- Chapter 02: Last tested with 0.5.20_r24275 (Dart Beta)
+- Chapter 03: Last tested with 0.5.20_r24275 (Dart Beta)
+- Chapter 04: Last tested with 0.5.20_r24275 (Dart Beta)
 - Chapter 05: no code for this chapter
-- Chapter 06: Last tested with r20263 (M3+)
-- Chapter 07: Last tested with r16323 (M2)
-- Chapter 08: Last tested with r16323 (M2)
+- Chapter 06: Last tested with 0.5.20_r24275 (Dart Beta)
+- Chapter 07: Last tested with 0.5.20_r24275 (Dart Beta)
+- Chapter 08: Last tested with 0.5.20_r24275 (Dart Beta)
 - Chapter 09: Last tested with r16323 (M2)
 - Chapter 10: Last tested with r16323 (M2)
 - Chapter 11: Last tested with r16323 (M2)
